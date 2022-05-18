@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: MazzardH;
+    src: url(/fonts/mazzardh/MazzardH-Bold.otf);
+}
+@font-face {
+    font-family: Gotham-Bold;
+    src: url(/fonts/gotham/Gotham-Bold.otf);
+}
+@font-face {
+    font-family: Gotham-Regular;
+    src: url(/fonts/gotham/Gotham-Light.otf);
+}
