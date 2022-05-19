@@ -8,8 +8,8 @@ const Header = () => {
                 <Image
                     alt="lipsson logo"
                     src="/logo.png"
-                    width={80}
                     height={40}
+                    width={80}
                 />
             </div>
             <NavbarLinkContainer
