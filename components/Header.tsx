@@ -9,7 +9,7 @@ const Header = () => {
       <HeaderLogo />
       <div className="flex justify-around items-center">
         {LINKS.map((link) => (
-          <NavLink label={link} />
+          <NavLink label={link} key={link} />
         ))}
       </div>
     </div>

@@ -7,6 +7,7 @@ const HeaderLogo = () => {
       height={45}
       width={100}
       className="z-20"
+      alt="Lipsson logo"
     />
   );
 };
