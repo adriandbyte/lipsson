@@ -5,7 +5,6 @@ const LipssonHero = () => {
     <Image
       src="/images/logo.png"
       layout="responsive"
-      className="xs:h-[200px]"
       alt="Lipsson logo"
       width={600}
       height={700}

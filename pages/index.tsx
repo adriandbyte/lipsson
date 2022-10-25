@@ -3,6 +3,7 @@ import Head from "next/head";
 import Carrousel from "../components/Carrousel";
 import Header from "../components/Header";
 import LipssonHero from "../components/LipssonHero";
+import PrimaryButton from "../components/PrimaryButton";
 import WavesPurpleHero from "../components/WavesPurpleHero";
 
 const Home: NextPage = () => {
@@ -17,15 +18,15 @@ const Home: NextPage = () => {
         <div className="md:grid md:grid-cols-2 z-20">
           <div className="grid grid-cols-1 mt-16 z-20 items-center">
             <div className="m-auto w-8/12 grid grid-cols-1">
-              <div className="m-auto tracking-wide font-gothamBold  text-white font-black  text-4xl md:text-5xl lg:text-[75px] z-20">
+              <div className="tracking-wide font-gothamBold text-white font-black  text-5xl md:m-auto md:text-5xl lg:text-[75px] z-20">
                 Creamos
                 <br /> experiencias
                 <br /> memorables
               </div>
-              <div className="m-auto mt-8 text-gray-400 text-xl md:text-2xl lg:text-[30px] font-gotham z-20 xl:mt-16">
+              <div className="mt-8 text-gray-400 text-xl font-gotham z-20 md:text-4xl md:m-auto md:mt-16 lg:text-[30px]">
                 A traves de los años descubrimos <br />
                 <div className="mt-2">
-                  <b className="font-gothamBold font-extrabold  text-white text-xl md:text-2xl  lg:text-[30px]">
+                  <b className="font-gothamBold font-extrabold text-white text-xl md:text-4xl lg:text-[30px]">
                     algo asombroso!
                   </b>
                 </div>
@@ -55,11 +56,16 @@ const Home: NextPage = () => {
             <div className="">
               <img className="rounded-2xl" src="/images/pic1.jpeg" />
             </div>
-            <div className="mt-8 sm:text-[17px] md:mt-0  lg:text-[25px] text-gray-400  font-gotham min-h-[200px] flex self-center">
-              y esta experiencia sigue con la planeación y despues de una mañana
-              agitada, por fin las personas que mas quieres aparecen, se
-              encuentran con amigos y ellos con otros, y los pequeños grupos se
-              juntan para celebrar contigo.
+            <div className="mt-8 sm:text-[17px] md:mt-0  lg:text-[25px] text-gray-400  font-gotham min-h-[200px] self-center block">
+              <p>
+                y esta experiencia sigue con la planeación y despues de una
+                mañana agitada, por fin las personas que mas quieres aparecen,
+                se encuentran con amigos y ellos con otros, y los pequeños
+                grupos se juntan para celebrar contigo.
+              </p>
+              <div className="text-center mt-12">
+                <PrimaryButton label="continuar" />
+              </div>
             </div>
           </div>
         </section>
