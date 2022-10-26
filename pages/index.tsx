@@ -8,7 +8,7 @@ import WavesPurpleHero from "../components/WavesPurpleHero";
 
 const Home: NextPage = () => {
   return (
-    <div className="h-max">
+    <div className="h-max w-max overflow-hidden">
       <Head>
         <title>Lipsson</title>
       </Head>
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <WavesPurpleHero />
         <div className="md:grid md:grid-cols-2 z-20">
           <div className="grid grid-cols-1 mt-16 z-20 items-center">
-            <div className="m-auto w-8/12 grid grid-cols-1">
+            <div className="m-auto md:w-8/12 grid grid-cols-1">
               <div className="tracking-wide font-gothamBold text-white font-black  text-5xl md:m-auto md:text-5xl lg:text-[75px] z-20">
                 Creamos
                 <br /> experiencias
