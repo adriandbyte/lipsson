@@ -3,22 +3,22 @@ import { useState } from "react";
 const LIPSSON_IMAGES = [
   {
     src: "/images/pic2.jpeg",
-    alt: "prepare wedding",
+    alt: "lipsson mixer",
     active: false,
   },
   {
     src: "/images/pic3.jpeg",
-    alt: "prepare wedding",
+    alt: "salon 51 dj mixer",
     active: false,
   },
   {
     src: "/images/pic4.jpeg",
-    alt: "prepare wedding",
+    alt: "lipsson wedding party",
     active: false,
   },
   {
     src: "/images/pic5.jpeg",
-    alt: "prepare wedding",
+    alt: "lipsson party",
     active: false,
   },
 ];

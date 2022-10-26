@@ -54,7 +54,11 @@ const Home: NextPage = () => {
         <section className="main-2 p-10 sm:mt-0 lg:mt-24 md:w-10/12 m-auto">
           <div className="md:grid sm:grid-cols-2 sm:gap-10 md:gap-20 lg:gap-20 xl:gap-40">
             <div className="">
-              <img className="rounded-2xl" src="/images/pic1.jpeg" />
+              <img
+                className="rounded-2xl"
+                src="/images/pic1.jpeg"
+                alt="lipsson dj, party, events"
+              />
             </div>
             <div className="mt-8 sm:text-[17px] md:mt-0  lg:text-[25px] text-gray-400  font-gotham min-h-[200px] self-center block">
               <p>
