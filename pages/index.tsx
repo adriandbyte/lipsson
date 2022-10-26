@@ -8,7 +8,7 @@ import WavesPurpleHero from "../components/WavesPurpleHero";
 
 const Home: NextPage = () => {
   return (
-    <div className="h-max w-max overflow-hidden">
+    <div className="h-full w-full overflow-hidden">
       <Head>
         <title>Lipsson</title>
       </Head>
