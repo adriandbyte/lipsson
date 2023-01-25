@@ -78,7 +78,7 @@ const Home: NextPage = () => {
         {/* <section className="instagram">
           <CarrouselList />
         </section> */}
-        <section className="main-2 p-10 sm:mt-0 lg:mt-24 md:w-10/12 m-auto">
+        <section className="main-3 p-10 sm:mt-0 lg:mt-24 md:w-10/12 m-auto">
           <div className="mt-8 sm:text-[17px] md:mt-0  lg:text-[25px] text-gray-400  font-gotham min-h-[200px] self-center block">
             <p>
               Lo mas <b className="font-gothamBold font-extrabold  text-white text-md lg:text-[24px]">asombroso</b> es que siempre llega ese momento en esta experiencia que has preparado para celebrar y que es inevitable,
