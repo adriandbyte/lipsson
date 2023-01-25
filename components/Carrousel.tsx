@@ -39,6 +39,7 @@ const Carrousel = () => {
   };
 
   return (
+
     <div className="relative h-full lg:w-11/12 lg:m-auto">
       <div className="relative h-52 md:h-[700px] overflow-hidden rounded-2xl">
         <div className="duration-700 ease-in-out" data-carousel-item>
@@ -55,9 +56,8 @@ const Carrousel = () => {
             <button
               key={index}
               type="button"
-              className={`w-5 h-5 rounded-full bg-white ${
-                idx === index ? "" : "opacity-50"
-              }`}
+              className={`w-5 h-5 rounded-full bg-white ${idx === index ? "" : "opacity-50"
+                }`}
               aria-current="false"
               aria-label={`Slide ${index}`}
               onClick={() => setIdx(index)}
@@ -116,6 +116,7 @@ const Carrousel = () => {
         </span>
       </button>
     </div>
+
   );
 };
 

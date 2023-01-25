@@ -1,10 +1,12 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Carrousel from "../components/Carrousel";
+import CarrouselList from "../components/CarrouselList";
 import Header from "../components/Header";
 import LipssonHero from "../components/LipssonHero";
 import PrimaryButton from "../components/PrimaryButton";
 import WavesPurpleHero from "../components/WavesPurpleHero";
+import SecondaryButton from '../components/SecondaryButton';
 
 const Home: NextPage = () => {
   return (
@@ -73,7 +75,26 @@ const Home: NextPage = () => {
             </div>
           </div>
         </section>
-        <section className="instagram"></section>
+        {/* <section className="instagram">
+          <CarrouselList />
+        </section> */}
+        <section className="main-2 p-10 sm:mt-0 lg:mt-24 md:w-10/12 m-auto">
+          <div className="mt-8 sm:text-[17px] md:mt-0  lg:text-[25px] text-gray-400  font-gotham min-h-[200px] self-center block">
+            <p>
+              Lo mas <b className="font-gothamBold font-extrabold  text-white text-md lg:text-[24px]">asombroso</b> es que siempre llega ese momento en esta experiencia que has preparado para celebrar y que es inevitable,
+              <b className="font-gothamBold font-extrabold  text-white text-md lg:text-[24px]"> el momento que todos comparten una pista y un mismo ritmo</b> para seguir creando esos pequenos momentos que hacen de tu celebracion...
+            </p>
+          </div>
+          <div className="mt-16 text-gray-400 text-xl font-gotham z-20 md:text-4xl md:m-auto md:mt-2 lg:text-[30px] flex text-right">
+            <div className="tracking-wide font-gothamBold text-white font-black  text-5xl md:m-auto md:text-5xl lg:text-[75px] z-20">
+              Un evento que jamas olvidaran.
+            </div>
+          </div>
+          <div className="mt-36 flex justify-evenly">
+            <SecondaryButton label="¿Como lo logran?" />
+            <PrimaryButton label="Crear experiencia" />
+          </div>
+        </section>
       </div>
     </div>
   );
